@@ -573,7 +573,7 @@
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-        import { getFirestore, doc, setDoc, onSnapshot, collection } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        import { getFirestore, doc, setDoc, onSnapshot, collection } from "https://lich-su-asean-default-rtdb.asia-southeast1.firebasedatabase.app/";
 
         // =========================================================================
         // 1. KHU VỰC DÀNH CHO NGƯỜI QUẢN TRỊ (CHỈ SỬA ĐỀ & DÁN ẢNH CÔ TRONG CODE)
@@ -586,7 +586,7 @@
 
             // 👉 SỬA TÊN CÔ GIÁO & TÊN LỚP TẠI ĐÂY:
             teacherName: "Cô Hồ Thị Thu Ngân",
-            className: "12Ac7 Yêu Thương 💕",
+            className: "12C7 Yêu Thương 💕",
             teacherQuote: "\"Dịu dàng, tâm lý nhưng mỗi lần cả lớp ồn là ánh mắt cô sắc hơn dao:((!\"",
             cardMessage: "Nhân ngày Phụ nữ Việt Nam 20/10, tập thể lớp chúng em xin gửi tới Cô ngàn lời chúc tốt đẹp và ngọt ngào nhất! Cảm ơn Cô vì đã luôn kiên nhẫn, bao dung và yêu thương chúng em như những đứa con của mình. Chúc Cô mãi luôn xinh đẹp, rạng rỡ và tràn đầy hạnh phúc!",
 
@@ -599,9 +599,9 @@
                         "\"Các anh các chị có định cho tôi dạy nữa không đây?\"",
                         "\"Im lặng ngay! Tôi nghe thấy tiếng lớp mình từ đầu hành lang rồi đấy!\"",
                         "\"Hôm nay lớp mình ngoan thế nhỉ, thưởng cả lớp nghỉ sớm!\"",
-                        "\"Ai vừa nói chuyện tự giác đứng lên trước khi tôi gọi tên!\""
+                        "\"Ai vừa nói chuyện nghe giọng nam/nữ rì rầm rì rầm ""
                     ],
-                    correct: 1
+                    correct: 3
                 },
                 {
                     emoji: "📚",
@@ -619,8 +619,8 @@
                     question: "Câu nói nào cô thường nói nhất trong giờ học?",
                     options: [
                         "Các em học 1,2 phải biết 3,4",
-                        "hôm nay ai đi học muộn hay quên đeo thẻ or đeo ",
-                        "Sổ đầu bài toàn điểm Tốt và lớp xếp hạng Nhất tuần",
+                        "Ai quên đeo thẻ hay huy hiệu đoàn đâu đứng dậy ",
+                        "Nay có ai đi học trễ trong tuần không",
                         "Cả 3 điều trên cộng lại!"
                     ],
                     correct: 3
